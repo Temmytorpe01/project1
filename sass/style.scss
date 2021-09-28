@@ -1,0 +1,89 @@
+@import "variable";
+
+body{
+    background-color: $background;
+    margin: 0;
+    padding: 0;
+}
+#body{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.nav{
+    display: flex;
+   justify-content: space-between;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    color: $primarycolor;
+}
+
+.toplink{
+    margin-top: 19px;
+    margin-left: 0%;
+
+    
+    a{
+        text-decoration: none;
+        padding: 30px;
+        color: $secondarycolor;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: regular;
+
+         
+    }
+        .get{
+        border: 1px solid $tertiarycolor;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+    i{
+        color: $primarycolor;
+        margin: 0;
+    }
+}
+.main{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    line-height: 110px;
+}
+.first{
+    width: 600px;
+}
+h4{
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 10px;
+    line-height: 0px;
+    color: $primarycolor;
+}
+p{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 6px;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    padding: 4px 20px;
+    color: $secondarycolor;
+
+    i{
+        padding-right: 8px;
+    }
+}
+.started{
+    background-color: $tertiarycolor;
+    color: $primarycolor;
+    border-radius: 15px;
+}
+.second{
+    width: 400px;
+}
+img{
+    width: 400px;
+}
